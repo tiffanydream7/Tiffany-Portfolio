@@ -2,18 +2,15 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Monument | Home</title>
-	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i|Raleway:500,600" rel="stylesheet">
+	<title>Tiffany Chen | Portfolio</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/slideshow.css">
 	<link rel="stylesheet" href="css/landing.css">
-
 </head>
 <body>
-
 	<header class="vertical-center">
-
 		<div>
 			<h1 id="name"><a href="">Tiffany Chen</a></h1>
 			<h2>UX/UI Designer</h2>
@@ -24,7 +21,7 @@
 		<a class="hamburger" href=""><i class="fa fa-bars"></i></a>
 		<ul>
 			<li><a href="#about">About</a></li>
-			<li><a href="#gallery">Gallery</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
 			<li><a href="blog.html">Blog</a></li>
 			<li><a href="#contact">Contact</a></li>
 		</ul>
@@ -47,50 +44,87 @@
   </div>
 </div>
 
-<!-- What I do -->
-	<section>
-		<h2>What I do</h2>
-
-		<div class="grid-wrapper articles">
-			<article class="col-third">
-				<img src="images/web01.jpg" width="400px" height="300px" alt="web design">
-				<div>
-					<h3>Web Design - Web Development</h3>
-					<p>Front-End and Back-end Development for mobile friendly web apps.</p>
-					<button>Learn More</button>
-				</div>
-			</article>
-			<article class="col-third">
-				<img src="images/design01.jpeg" width="400px" height="300px" alt="ux-ui design">
-				<div>
-					<h3>UX/UI Design - Graphic Design</h3>
-					<p>User friendly web apps.</p>
-					<button>Learn More</button>
-				</div>
-			</article>
-			<article class="col-third">
-				<img src="images/photo07.jpeg" width="400px" height="300px" alt="digital marketing">
-				<h3>Digital Marketing - Amazon, Shopify Expert</h3>
-				<p>Google Adwords Certified and specialize in Amazon PPC management.</p>
-				<button>Learn More</button>
-			</article>
-		</div>
-	</section>
-	
-	<section id="gallery">
-		<div class="wrap">
-			<h2>Portfolio</h2>
-			<h3>A visual guide to the Southwest</h3>
-			<div class="masonry">
-				<img src="images/gallery_1.jpg" alt="">
-				<img src="images/gallery_3.jpg" alt="">
-				<img src="images/gallery_4.jpg" alt="">
-				<img src="images/gallery_2.jpg" alt="">
-				<img src="images/gallery_5.jpg" alt="">
-				<img src="images/gallery_6.jpg" alt="">
+<!-- What I do - flip box -->
+<div class="flip-outside" id="work">
+<div class="flip-box">
+		<div class="flip-box-inner">
+		  <div class="flip-box-front">
+			<img src="images/work01.jpg" class="card-img-top" alt="Pasta" width="350px"; height="250px">
+			<div class="btn-flip">
+				<button type="button" class="btn btn-info">WEB DEVELOPMENT</button>
 			</div>
+		  </div>
+		<div class="flip-box-back">
+		  <h3>Authentic Italian Pasta</h3>
+		  <ol>
+			<li>Bring a small pot of water to a boil. Add chicken; boil until into the center reads.
+			<li>Run cool water over chicken to speed cooling process. Shred or finely slice chicken.</li>
+			<li>Heat olive oil in a large pot over medium heat, 1/2 cup cilantro 5 minutes.</li>
+		  </ol>
+		   </div>
+		  </div>
 		</div>
-	</section>
+
+		<div class="flip-box">
+				<div class="flip-box-inner">
+				  <div class="flip-box-front">
+					<img src="images/work02.jpeg" class="card-img-top" alt="Pasta" width="350px"; height="250px">
+					<div class="btn-flip">
+						<button type="button" class="btn btn-info">Digital Marketing</button>
+					</div>
+				  </div>
+				<div class="flip-box-back">
+				  <h3>Authentic Italian Pasta</h3>
+				  <ol>
+					<li>Bring a small pot of water to a boil. Add chicken; boil until into the center reads.
+					<li>Run cool water over chicken to speed cooling process. Shred or finely slice chicken.</li>
+					<li>Heat olive oil in a large pot over medium heat, 1/2 cup cilantro 5 minutes.</li>
+				  </ol>
+				   </div>
+				  </div>
+				</div>
+
+			<div class="flip-box">
+					<div class="flip-box-inner">
+					  <div class="flip-box-front">
+						<img src="images/work03.jpeg" class="card-img-top" alt="Pasta" width="350px"; height="250px">
+						<div class="btn-flip">
+							<button type="button" class="btn btn-info">Digital Marketing</button>
+						</div>
+					  </div>
+					<div class="flip-box-back">
+					  <h3>Authentic Italian Pasta</h3>
+					  <ol>
+						<li>Bring a small pot of water to a boil. Add chicken; boil until into the center reads.
+						<li>Run cool water over chicken to speed cooling process. Shred or finely slice chicken.</li>
+						<li>Heat olive oil in a large pot over medium heat, 1/2 cup cilantro 5 minutes.</li>
+					  </ol>
+					   </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+
+
+	<!-- Portfolio -->
+	<section id="gallery">
+			<div class="wrap">
+			 <div id="project">
+				<h2>My Projects</h2>
+				<h3>UX/UI Design, Web Development and Photography</h3>
+			</div>
+				<div class="masonry">
+					<img src="images/custom – 1.jpg" alt="">
+					<img src="images/custom – 3.jpg" alt="">
+					<img src="images/custom – 2.jpg" alt="">
+					<img src="images/custom – 5.jpg" alt="">
+					<img src="images/custom – 4.jpg" alt="">
+					<img src="images/custom – 6.jpg" alt="">
+				</div>
+			</div>
+		</section>
+
+	<!-- Contact -->
 	<section id="contact">
 		<div class="wrap">
 		<h2>Get in Touch</h2>
@@ -111,11 +145,15 @@
 				<a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
 			</div>
 			<input type="text" placeholder="Email Address">
-			<button type="submit">Subscribe</button>
+			<button type="submit">Let's connect</button>
 		</div>
 
-		<p class="copyright">&copy;2016 Sarah Holden</p>
+		<p class="copyright">&copy;Tiffany Chen Portfolio 2019</p>
 	</footer>
 	
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>

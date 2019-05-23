@@ -2,7 +2,7 @@
 Header
 ------------------------------------------- */
 header {
-	background-image: url('../images/p01.jpeg');
+	background-image: url('../images/ocean.jpeg');
 	background-attachment: fixed;
 	height: 100vh;
 }
@@ -23,12 +23,12 @@ About
 
 
 /* ----------------------------------------
-Gallery
+My Portfolio Gellery
 ------------------------------------------- */
 .masonry {
 	column-count: 3;
 	width: 100%;
-	margin: 64px 0 0;
+	margin: 50px 0 0;
 	margin: 4rem 0 2rem;
 	padding-bottom: 0;
 }
@@ -37,12 +37,16 @@ Gallery
 	cursor: pointer;
 	-webkit-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
-	margin-bottom: 16px;
-	margin-bottom: 1rem;
+	margin-bottom: 35px;
+	margin-bottom: 3rem;
+	opacity: .8;
 }
 
 .masonry img:hover {
-	opacity: .6;
+	opacity: 1;
+	-ms-transform: scale(1.2); /* IE 9 */
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 #gallery {
@@ -59,3 +63,67 @@ Gallery
 		column-count: 2;
 	}
 }
+
+#work {
+	margin-top: 0px;
+	margin-bottom: -60px;
+}
+
+/* flip box */
+.flip-box {
+    /* background-color: transparent; */
+    width: 350px;
+    height: 250px;
+	perspective: 1000px;
+	}
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: rgb(122, 124, 128);
+    color: white;
+    transform: rotateY(180deg);
+    letter-spacing: 1.5;
+    font-size: 10px;
+    padding: 15px;
+    margin: 15px;
+  }
+
+  .btn-flip {
+	  margin: 15px;
+  }
+
+  .flip-outside {
+	  display: flex;
+	  justify-content: center;
+	  justify-content: space-around;
+	  padding: 20px;
+  }
+
+  #project {
+	  margin-top: 40px;
+	  margin-bottom: 20px;
+  }
