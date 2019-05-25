@@ -44,9 +44,9 @@ My Portfolio Gellery
 
 .masonry img:hover {
 	opacity: 1;
-	-ms-transform: scale(1.2); /* IE 9 */
+	/* -ms-transform: scale(1.2);
 	-webkit-transform: scale(1.2);
-	transform: scale(1.2);
+	transform: scale(1.2); */
 }
 
 #gallery {

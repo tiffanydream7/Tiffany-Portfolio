@@ -9,7 +9,7 @@ header h2 {
 }
 
 header {
-	background-image: url('../images/blog_header_bg.jpg');
+	background-image: url('../images/mobile-banner.jpg');
 	background-size: cover;
 	background-position: center;
 
@@ -17,16 +17,16 @@ header {
 	padding-bottom: 2.5rem; */
 
 	/* If there is a background-image */
-	height: 350px;
+	height: 450px;
 	margin-bottom: 48px;
 	margin-bottom: 3rem;
-
 }
 
 h1 a {
 	color: #44545E;
+	position: relative;
+	left: 50px;
 
-	/* If background-image */
 	color: white;
 	margin-top: 40px;
 	margin-top: 2.5rem;
@@ -37,7 +37,7 @@ h1 a {
 Layout
 ------------------------------------------- */
 .grid-wrapper section {
-	width: 70%;
+	width: 60%;
 	text-align: left;
 	padding-top: 0;
 	padding-bottom: 54.4px;
@@ -52,10 +52,10 @@ Layout
 Aside
 ------------------------------------------- */
 aside {
-	width: 26%;
+	width: 40%;
 	text-align: left;
-	padding-right: 16px;
-	padding-right: 1rem;
+	padding-right: 26px;
+	padding-right: 3rem;
 }
 
 aside h3 {
@@ -97,4 +97,33 @@ article h3 {
 	.grid-wrapper section {
 		width: 100%;
 	}
+}
+
+#big-heading {
+	display: block;
+	margin-top: 0;
+	margin-bottom: .5rem;
+	font-weight: 500;
+	color: inherit;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+	margin-block-end: 0.83em;
+    margin-block-start: 0.83em;
+}
+.row {
+	position: relative;
+	left: -350px;
+	top: 40px;
+}
+
+.overview {
+	width: 500px;
+	height: 350px;
+	margin: -20px;
+}
+
+.web-box {
+	position: relative;
+	align-content: center;
+	left: 25%;
 }
