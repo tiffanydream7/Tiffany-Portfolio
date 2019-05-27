@@ -1,0 +1,120 @@
+.portfolio-page h2,
+.about-page h2,
+.contact-page h2 {
+  background-color: rgba(242, 242, 242, 1);
+  position: relative;
+  top: -28px;
+  display: inline-block;
+  left: 44%;
+  padding: 5px;
+  font-size: 2em;
+}
+
+.col-1 a,
+.col-2 a {
+  text-decoration: none;
+}
+
+.featured-proj-img {
+  background: url("../images/motivatr.png");
+}
+
+.proj-2-img {
+  background: url("../images/meenstream.png");
+}
+
+.proj-4-img {
+  background: url("../images/rainbow.png");
+}
+
+.proj-3-img {
+  background: url("../images/comic.png");
+}
+
+.proj-6-img {
+  background: url("../images/shoeinsights.png");
+  background-position: center;
+}
+
+.proj-5-img {
+  background: url("../images/icecreamfinder.png");
+  background-position: center;
+}
+
+.proj-img {
+  height: 400px;
+  background-size: cover;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.project-remove-desc {
+  color: rgba(0, 0, 0, 0);
+}
+
+.project-description {
+  background-color: rgba(7, 51, 89, 0.9);
+  color: rgba(242, 242, 242, 1);
+  height: 100%;
+  text-align: center;
+  padding: 30% 3% 0;
+  font-size: 1.6em;
+  transition: color 0.3s ease, background-color 0.5s ease;
+}
+
+.project-description:hover {
+  background-color: rgba(7, 51, 89, 0.9);
+  color: rgba(242, 242, 242, 1);
+  height: 100%;
+  text-align: center;
+  padding: 30% 3% 0;
+  font-size: 1.6em;
+}
+
+.fa-github,
+.fa-external-link-alt {
+  font-size: 1.5em;
+  padding: 2px;
+  margin-right: 1%;
+}
+
+.heroku-logo {
+  width: 25px;
+}
+
+/*---layout---*/
+
+.portfolio-page {
+  margin: 0 5%;
+}
+
+.portfolio-projects-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-1,
+.row-2,
+.row-3 {
+  display: flex;
+}
+
+.portfolio-icons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.portfolio-page a {
+  line-height: 0;
+}
+
+.col-1 {
+  width: 50%;
+  margin-right: 2.5%;
+}
+
+.col-2 {
+  width: 50%;
+  margin-left: 2.5%;
+}
