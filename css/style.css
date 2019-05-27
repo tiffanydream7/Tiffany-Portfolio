@@ -326,3 +326,61 @@ Media Queries
 #process {
 	margin: 10px;
 }
+
+
+/*-----------*/
+/*   About   */
+/*-----------*/
+.about-page {
+	margin: 0 5%;
+  }
+  
+  .about-section {
+	display: flex;
+  }
+  
+  .about-image,
+  .about-image-back {
+	height: 350px;
+	border-radius: 10%;
+	/* border: 1px solid rgba(7, 51, 89, 1); */
+	position: sticky;
+	top: 20px;
+  }
+  
+  .about-image {
+	opacity: 1;
+	transition: opacity 0.25s ease;
+	animation-name: fadeIn;
+	animation-duration: 0.25s;
+  }
+  
+  @keyframes fadeIn {
+	from {
+	  opacity: 0;
+	}
+	to {
+	  opacity: 1;
+	}
+  }
+  
+  .about-image:hover {
+	opacity: 0;
+  }
+  
+  .about-image-back {
+	opacity: 0;
+	transition: opacity 0.25s ease;
+  }
+  
+  .about-image-back:hover {
+	opacity: 1;
+  }
+  
+  .hide {
+	display: none;
+  }
+  
+  .about-description {
+	margin-left: 7%;
+  }
