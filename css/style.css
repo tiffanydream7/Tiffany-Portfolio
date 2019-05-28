@@ -66,6 +66,10 @@ a:hover {
 /* ----------------------------------------
 Layout
 ------------------------------------------- */
+#title{
+	text-shadow: 2px 2px 4px #000000;
+}
+
 #callout {
 	background-color: #CFF2F6;
 	text-align: left;
