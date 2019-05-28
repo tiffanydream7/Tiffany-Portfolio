@@ -8,82 +8,73 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/landing.css">
 </head>
+
 <body>
-		<header class="vertical-center">
-				<div>
-					<h1><a href="">Tiffany Chen</a></h1>
-					<h2>UX/UI Designer</h2>
-					<h2>Full Stack Software Engineer</h2>
-				</div>
-			</header>
-			<nav>
-					<a class="hamburger" href=""><i class="fa fa-bars"></i></a>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="ux.html">UX/UI Design</a></li>
-						<li><a href="webdevelop.html">Web Development</a></li>
-						<li><a href="index.html#contact">Contact</a></li>
-					</ul>
-				</nav>
-
-				<section id="about" class="callout about">
-						<article class="wrap">
-							<h2>What I do</h2>
-							<!-- <p>I aim to bridge the gap between graphical design and technical implementation. I will take an active role on both sides and define how the application looks as well as how it works.</p> -->
-							</article>
-
-<!-- What I do - flip box -->
-<div class="flip-outside">
-<div class="flip-box">
-		<div class="flip-box-inner">
-		  <div class="flip-box-front">
-			<img src="images/work01.jpg" class="card-img-top" alt="Pasta" width="350px"; height="250px">
-			<div class="btn-flip">
-				<button type="button" class="btn btn-info">WEB DEVELOPMENT</button>
-			</div>
-		  </div>
-			<div class="flip-box-back">
-					<h2>html, css, javascript, react</h2>
-					<h3>Add chicken; boil until into the center reads.</h3>
-				</div>
-		  </div>
+	<header div class="vertical-center" id="tittle">
+		<div>
+		  <h1><a href="">Tiffany Chen</a></h1>
+		  <h2>UX/UI Designer</h2>
+		  <h2>Full Stack Software Engineer</h2>
 		</div>
-
-		<div class="flip-box">
-				<div class="flip-box-inner">
-				  <div class="flip-box-front">
-					<img src="images/work02.jpeg" class="card-img-top" alt="Pasta" width="350px"; height="250px">
-					<div class="btn-flip">
-						<button type="button" class="btn btn-info">UX/UI Desig</button>
-					</div>
-				  </div>
-					<div class="flip-box-back">
-							<h2>Web/Mobile Design</h2>
-							<h3>Add chicken; boil until into the center reads.</h3>
-						</div>
-				  </div>
-				</div>
-
-			<div class="flip-box">
-					<div class="flip-box-inner">
-					  <div class="flip-box-front">
-						<img src="images/work03.jpeg" class="card-img-top" alt="Pasta" width="350px"; height="250px">
-						<div class="btn-flip">
-							<button type="button" class="btn btn-info">Digital Marketing</button>
-						</div>
-					  </div>
-					<div class="flip-box-back">
-						<br>
-					  <h2>Social Media and PPC</h2>
-						<h3>Add chicken; boil until into the center reads.</h3>
-					   </div>
-					  </div>
-					</div>
-			</div>
-		</section>
-		<br >
-		<br >
+	</header>
+	<nav>
+	    <a class="hamburger" href=""><i class="fa fa-bars"></i></a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#main">About</a></li>
+				<li><a href="ux.html">UX/UI Design</a></li>
+				<li><a href="webdevelop.html">Web Development</a></li>
+				<li><a href="index.html#contact">Contact</a></li>
+			</ul>
+	</nav>
+	<div id="callout"">
+	<main id="main" role="main" class="about-page">
+			<section class="about-section">
+			  <img
+				class="about-image"
+				src="images/fennie.jpg"
+				alt="Tiffany"
+			  />
+			  <img
+				class="about-image-back hide"
+				src="images/work02.jpeg"
+				alt="Tiffany"
+			  />
+	  
+			  <section class="about-description" id="story">
+				<h2>My Story</h2>
+				<h3>Life is a color palette of your choice</h3>
+				<p> Hi I'm Tiffany, UX/UI designer and font-end engineer with a solid
+					knowledge in the back-end and e-commerce SEO practice. 
+					Capturing beautifully ordinary moments in stillness, cooking,
+					music and travel are my favorites. I aim to create a life and
+					a legacy of support, innovation, collaboration, and kindness.
+					This exciting experience has inspired me to grow through
+					experiencing different cultures and innovation. I have learned
+					different perspectives and user behavior which will definitely
+					help me design and develop product experiences that people enjoy.</p>
+	  
+				<h3>Embrace from marketing, designer to developer</h3>
+				<p>This includes traveling internationally, attending trade show exhibitions around the world,
+				  becoming an e-commerce specialist,  and working with fortune 500
+				  company buyers and household end-users. With my marketing, graphic
+				  design and SEO background, I believe that I could be a great designer
+				  as well as a developer who bridges the gap between graphical design
+				  and technical implementation. I will take an active role on both sides
+				  and define how the application looks as well as how it works.</p>
+	  
+				<h3>Looking forward</h3>
+				<p> In addition to becoming a highly skilled developer, I want to take
+				  care of the people in front of and behind the screen. Usability,
+				  design, achieving business goals, and being a good person are
+				  important to me. I’m looking forward to collaborating with UX,
+				  visual design, and product owners to build good things. I want to be
+				  the person who is great at what they do, and great to work with,
+				  too. </p>
+			  </section>
+			</section>
+		  </main>
+		</div>
 
 <!-- photography -->
 <section id="gallery">
@@ -100,21 +91,6 @@
 			</div>
 		</div>
 	</section>
-
-	<!-- Portfolio -->
-	<!-- <section id="gallery">
-			<div class="wrap">
-				<div class="masonry">
-					<img src="images/webpro01.jpg" alt="design">
-					<img src="images/webpro05.jpg" alt="design">
-					<a href="ux.html"/><img src="images/webpro02.jpg" alt="design"/>
-					<img src="images/webpro04.jpg" alt="design">
-					<img src="images/webpro03.jpg" alt="design">
-					<img src="images/webpro06.jpg" alt="design">
-				</div>
-			</div>
-		</div>
-		</section> -->
 
 	<!-- Contact -->
 	<footer>
@@ -137,6 +113,6 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+<script src="scripts/main.js"></script>
 </body>
 </html>
