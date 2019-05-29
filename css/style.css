@@ -31,6 +31,7 @@ p {
 	font-family: 'Lato', sans-serif;
 	text-transform: none;
 	line-height: 1.4;
+	text-align: left;
 }
 
 h1, h2, h3, h4 {
@@ -177,7 +178,8 @@ Buttons
 button {
 	cursor: pointer;
 	outline: 0;
-	border: 2px solid #44545E;
+	border: 1.5px solid #44545E;
+	border-radius: 10px;
 	color: #44545E;
 	padding: 8px 25.5px;
 	padding: 8px 1.7rem;
@@ -191,7 +193,7 @@ button {
 }
 
 button:hover {
-	background-color: #44545E;
+	background-color:rgb(252, 164, 10);
 	color: white;
 	font-weight: 600;
 }
@@ -238,6 +240,7 @@ footer .wrap {
 	/* border-top: 2px solid #44545E; */
 	padding: 15px 0 3px;
 	padding: 1rem 0 .2rem;
+	text-align: center;
 }
 
 /* ----------------------------------------
@@ -386,4 +389,4 @@ Media Queries
   
   .about-description {
 	margin-left: 7%;
-  }
+	}

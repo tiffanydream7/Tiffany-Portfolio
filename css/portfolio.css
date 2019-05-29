@@ -40,9 +40,11 @@ h1 a {
 }
 
 .overview {
-	width: 560px;
+	width: 360px;
 	height: 350px;
-	margin: -50px;
+	margin: -220px;
+	position: relative;
+	left: 160px;
 }
 
 #project {
@@ -117,10 +119,11 @@ article h3 {
 	}
 }
 
-.foodie {
+.foodie p {
 	width: 85%;
 	margin: 0 auto;
 	padding: 10px;
+	text-align: center;
 }
 
 .my-container {
