@@ -74,13 +74,21 @@ My Portfolio Gallery
 	  margin-bottom: 20px;
   }
 
-/*--- MAIN ---*/
-.landing-main {
-	display: flex;
-	/* margin: 0 5%; */
-}
+  /* bio */
+  #story-bio {
+	  margin: 0 auto;
+	  width: 65%;
+	  text-align: center;
 
-.specialities{
-	margin: 2px;
-	padding: 20px;
-}
+
+  }
+
+  .bio-box {
+	/* margin: 0 auto; */
+	display: flex;
+	/* flex-direction: row; */
+  }
+
+  .tiffany-image {
+	margin: 0 auto;
+  }

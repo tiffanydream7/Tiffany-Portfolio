@@ -127,7 +127,7 @@ article h3 {
 }
 
 .my-container {
-	margin: 5%;
+	margin: 15%;
 	/* background: rgb(228, 227, 227); */
 	margin-top: 10px;
 }
@@ -143,3 +143,11 @@ article h3 {
 .zoom:hover {
 	transform: scale(1.05);
   }
+
+#process {
+	margin-left: -0.5px;
+}
+
+#image-center {
+	margin-left: 15%;
+}

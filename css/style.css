@@ -6,7 +6,7 @@ Base Styles
 }
 
 html {
-	font-size: 15px;
+	font-size: 17px;
 }
 
 body {
@@ -73,12 +73,13 @@ Layout
 
 #callout {
 	background-color: #CFF2F6;
-	text-align: left;
+	text-align: left;	
 }
 
 #story {
 	margin-bottom: -40px;
 	margin-left: 25px;
+	text-align: left;
 }
 
 .wrap {
@@ -390,3 +391,12 @@ Media Queries
   .about-description {
 	margin-left: 7%;
 	}
+
+	.portfolio-box {
+		width: 95%;
+		text-align: left;
+		margin: 0 auto;
+		padding: 15px;
+	}
+
+	
