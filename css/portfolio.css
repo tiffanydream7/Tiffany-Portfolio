@@ -127,9 +127,11 @@ article h3 {
 }
 
 .my-container {
-	margin: 15%;
+	width: 85%;
+	height: 85%;
+	margin: 0 auto;
+	padding: 15px;
 	/* background: rgb(228, 227, 227); */
-	margin-top: 10px;
 }
 
 .app-name {
