@@ -96,7 +96,15 @@ h5 {
 }
 
 h6 {  
-	font-size: 18px;  
+	font-size: 18px;
+}
+
+.story {
+	margin: 20px;
+}
+
+#skill {
+	margin-top: -5px;
 }
 
 img {
