@@ -38,8 +38,11 @@ Author URI : http://www.markups.io/
 .mu-skill-progress-bar .mu-pro-bar,
 #mu-featured-slider,
 #mu-header.mu-fixed-nav {
-	background-color: #616161;
+	background-color: rgb(34, 200, 203);
+	background-image: url(../images/ocean.jpeg)
 }
+
+
 
 .mu-contact-form .form-control:focus {
 	border: 1px solid #339999;    

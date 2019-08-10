@@ -1393,7 +1393,12 @@ button:focus {
 /* UX hero */
 #ux-hero {
 	background-color: rgb(84, 177, 171);
-	/* height: 500px; */
+	/* background-image: linear-gradient(
+        to right bottom,
+        rgba(#228B22	),
+        rgba(#228B22, 0.8)),
+    url(../images/ocean.jpeg)
+	height: 500px; */
 }
 
 #dev-hero {
