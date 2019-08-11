@@ -1392,7 +1392,7 @@ button:focus {
 
 /* UX hero */
 #ux-hero {
-	background-color: rgb(84, 177, 171);
+	background-color: rgb(144, 134, 165);
 	/* background-image: linear-gradient(
         to right bottom,
         rgba(#228B22	),
@@ -1403,7 +1403,7 @@ button:focus {
 
 #dev-hero {
 	/* background-color: rgb(108, 118, 169); */
-	background-color: rgb(137, 169, 108);
+	background-color: rgb(143, 171, 118);
 	/* background-color: #CFF2F6 */
 }
 
